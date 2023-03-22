@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="ec2-15-164-210-178.ap-northeast-2.compute.amazonaws.com" id="addca116-9b7f-4e81-bba5-1753cf349451" keyPath="$USER_HOME$/.ssh/test-server.pem" port="22" customName="test-server" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="test-server" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

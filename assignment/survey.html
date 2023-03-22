@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>설문조사</h1>
+    <form action="">
+        이름 : <input type="text" name="name" id="name"> <br>
+        성별 : <input type="radio" id="male">
+        <label for="male">남성</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">여성</label> <br>
+        생년월일 : <input type="date" name="birth" id="birth">
+        <hr>
+
+        1. 취미는 무엇입니까? <br>
+        <input type="checkbox" name="hobby" value="운동">운동
+        <input type="checkbox" name="hobby" value="독서">독서
+        <input type="checkbox" name="hobby" value="영화감상">영화감상
+        <input type="checkbox" name="hobby" value="게임">게임
+        <br><br>
+
+        2. 사용하는 노트북 기종이 무엇인가요?<br>
+        <select name="" id="">
+            <option value="맥북">맥북</option>
+            <option value="삼성">삼성</option>
+            <option value="LG">LG</option>
+        </select>
+        <br><br>
+
+        3. 간단하게 자기소개 해주세요<br>
+        <textarea name="introduce" id="introduce" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
